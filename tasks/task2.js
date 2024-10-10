@@ -34,8 +34,11 @@ function getAverageAge(students) {
   return sumAge / students.length;
 }
 
+// 3. addStudent
+// Приймає масив студентів та новий об'єкт студента і додає його до масиву
 function addStudent(students, student) {
-  return students.concat(student);
+  students.push(student);
+  return students;
 }
 
 // 4. removeStudentByName
